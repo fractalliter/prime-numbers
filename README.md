@@ -17,9 +17,9 @@ cd build
 make
 ```
 
-Then run *Example* binary file in build directory like bellow:
+Then run *Primes* binary file in build directory like bellow:
 ```bash
-./Example
+./Primes
 ```
 A message will pop up on the command line asking for a number and if you input a number then the prime numbers of the range will be printed to the screen
 
