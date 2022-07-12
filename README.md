@@ -17,23 +17,27 @@ cd build
 make
 ```
 
-Then run *Primes* binary file in build directory like bellow:
+Then run *Primes* binary file in `build` directory like bellow:
 ```bash
-./Primes
+./build/Primes -n 26 -l -p
 ```
-A message will pop up on the command line asking for a number and if you input a number then the prime numbers of the range will be printed to the screen
+Where: 
+* `-n` is threshold number.
+* `-l` is to show the length of the list.
+* `-p` is to show the primes.
+
+then the prime numbers of the range will be printed to the screen
 
 ```bash
-Enter a number: 
-26
-prime number 0
-prime number 2
-prime number 3
-prime number 5
-prime number 7
-prime number 11
-prime number 13
-prime number 17
-prime number 19
-prime number 23
+Prime numbers: 
+2
+3
+5
+7
+11
+13
+17
+19
+23
+Number of primes = 9
 ```
