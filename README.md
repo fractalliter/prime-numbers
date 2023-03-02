@@ -41,3 +41,7 @@ Prime numbers:
 23
 Number of primes = 9
 ```
+
+### TODO
+- [ ] add multithreading to prime calculator
+- [ ] remove main.c
